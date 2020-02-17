@@ -6,7 +6,7 @@
 /*   By: lacruype <lacruype@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 14:09:50 by lacruype          #+#    #+#             */
-/*   Updated: 2020/02/17 15:25:43 by lacruype         ###   ########.fr       */
+/*   Updated: 2020/02/17 15:39:48 by lacruype         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,5 +64,15 @@ void			ft_putstr(char *s);
 void			ft_putnbr(int n);
 int				ft_lstsize(t_list *lst);
 char			*ft_putstrstr(char *s1, char *s2, int pos);
+void			ft_strdel(char **as);
+char			*ft_substr_gnl(char *s, unsigned int start, int len);
+char			*ft_strdup_gnl(char *s);
+char			*ft_strchr_gnl(char *s, int c);
+char			*ft_strjoin_gnl(char *s1, char *s2);
+int			ft_strlen_gnl(char *str);
+int			ft_new_line(char **gnl, char **line, int fd, ssize_t ret);
+int			get_next_line(int fd, char **line);
+char			*ft_strnew(int size);
+void			ft_swapfree(char **gnl, char *tmp, int fd);
 
 #endif
