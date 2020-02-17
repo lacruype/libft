@@ -6,11 +6,11 @@
 /*   By: lacruype <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/17 15:20:53 by lacruype          #+#    #+#             */
-/*   Updated: 2020/02/17 15:24:21 by lacruype         ###   ########.fr       */
+/*   Updated: 2020/02/17 15:26:02 by lacruype         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_putstrstr(char *s1, char *s2, int pos)
 {
@@ -24,7 +24,7 @@ char	*ft_putstrstr(char *s1, char *s2, int pos)
 	j = 0;
 	k = 0;
 	len = ft_strlen(s1) + ft_strlen(s2);
-	if (!(dest = malloc(sizeof(char) * (len + 1))) || pos > len)
+	if (!(dest = malloc(sizeof(char) * (len + 1))) || pos > (int)len)
 		return (0);
 	while (s1[i])
 	{
