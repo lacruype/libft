@@ -6,7 +6,7 @@
 #    By: lacruype <lacruype@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/10 11:44:06 by lacruype          #+#    #+#              #
-#    Updated: 2019/10/16 16:44:35 by lacruype         ###   ########.fr        #
+#    Updated: 2020/02/17 15:23:00 by lacruype         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,7 @@ SRCS =	ft_atoi.c			ft_bzero.c				ft_isalnum.c			ft_strlcat.c	\
 		ft_strlen.c			ft_strmapi.c			ft_strncmp.c			ft_strnstr.c	\
 		ft_strrchr.c		ft_substr.c				ft_tolower.c 							\
 		ft_toupper.c		ft_calloc.c				ft_memccpy.c 			ft_memmove.c	\
+		ft_putstrstr.c \
 
 OBJS = $(SRCS:.c=.o)
 

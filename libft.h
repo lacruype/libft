@@ -6,7 +6,7 @@
 /*   By: lacruype <lacruype@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 14:09:50 by lacruype          #+#    #+#             */
-/*   Updated: 2019/10/21 12:57:08 by lacruype         ###   ########.fr       */
+/*   Updated: 2020/02/17 15:22:35 by lacruype         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,6 @@ void			ft_putchar(char c);
 void			ft_putstr(char *s);
 void			ft_putnbr(int n);
 int				ft_lstsize(t_list *lst);
+char			ft_putstrstr(char *s1, char *s2, int pos);
 
 #endif
